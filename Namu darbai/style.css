@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+table {
+    border-radius: 20px;
+    border-collapse: collapse;
+  }
+
+td {
+    text-align: left;
+    padding: 30px;
+    font-family: roboto;
+    border: 1px solid gold;
+    color: white;
+    width: 230px;
+    height: 10px;
+    background: rgba(24, 0, 82, 0.863);
+}
+
+.gold {
+    color: black;
+    background-color: gold;
+    text-align: center;
+}
+
+.sand {
+    background-color: rgb(228, 189, 91);
+    color: black;
+    text-align: center;
+}
+
+input {
+    width: 30%;
+    margin: 1px;
+}
+
+button {
+    width: 31%;
+    margin: 1px;
+
+}

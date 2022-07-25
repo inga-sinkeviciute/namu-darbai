@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namu darbai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="get">
+        <input type="text" id="name" name="name" placeholder="Vardas">
+        <input type="text" id="lname" name="lname" placeholder="Pavardė">
+        <input type="number" id="age" name="age" placeholder="Amžius"><br>
+        <button onclick="myCreateFunction()">Pridėti</button>
+        <button onclick="myDeleteFunction()">Ištrinti pirmą</button>
+        <button onclick="myDeleteFunction()">Ištrinti paskutinį</button>
+      </form>
+    <table id="myTable">
+        <tr>
+            <td class="gold">VARDAS</td>
+            <td class="sand">PAVARDĖ</td>
+            <td class="gold">AMŽIUS</td>
+        </tr>
+        <tr>
+            <td>Jonas</td>
+            <td>Rimkus</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>Vestina</td>
+            <td>Petronytė</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>Marius</td>
+            <td>Dulinskas</td>
+            <td>23</td>
+        </tr>
+       </table> 
+    <script src="script.js"></script>
+</body>
+</html>
